@@ -109,5 +109,9 @@ errors, not single ones. Check `debug-patterns` first on every recall.
   so known landmines are in context.
 - When the user pastes a long error log or postmortem, offer to run
   `memwal_analyze` on it to extract and store every distinct lesson at once.
+  Target `debug-fixes` for incidents the text shows were resolved (the
+  resolution is the verification), `debug-failures` for attempts the text
+  shows did not work. If the text does not say how an incident ended, do not
+  store it as a fix.
 - Never ask the user for information you can recall. Recall is silent and
   cheap; asking twice is the failure mode this protocol exists to kill.

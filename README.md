@@ -72,13 +72,13 @@ recall is in the demo video. The scar tissue works on itself.
 
 - **Agent ID (MEMWAL_AGENT_ID):** `a5eabb52488822aebad9adbbdc635854fc3bd8397d393c0dc364d69a169ffad0`
 - **Account:** `0xac23fad65dfa42aded1fb422b599c4c0d972f7cfde2d9d95645e6fe490a2f4e7`
-- **Blob count:** 14 blobs on Walrus Mainnet, all written by the agent
+- **Blob count:** 18 blobs on Walrus Mainnet, all written by the agent
   following this prompt — zero manual writes (`tools/count.mjs`, 2026-07-13):
 
   ```
-  debug-fixes:     8   (verified fixes: ERROR | ROOT-CAUSE | FIX | VERIFIED-BY)
-  debug-failures:  3   (dead ends:      ERROR | CONTEXT | TRIED | WHY-FAILED)
-  debug-patterns:  3   (synthesized:    PATTERN | SEEN-IN | CHECK-FIRST)
+  debug-fixes:     10  (verified fixes: ERROR | ROOT-CAUSE | FIX | VERIFIED-BY)
+  debug-failures:   5  (dead ends:      ERROR | CONTEXT | TRIED | WHY-FAILED)
+  debug-patterns:   3  (synthesized:    PATTERN | SEEN-IN | CHECK-FIRST)
   ```
 
 Verify yourself (with your own delegate credentials):
